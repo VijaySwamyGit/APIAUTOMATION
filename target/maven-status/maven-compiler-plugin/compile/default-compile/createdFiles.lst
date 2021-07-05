@@ -1,0 +1,10 @@
+pojo\Courses.class
+pojo\WebAutomation.class
+pojo\AddPlace.class
+pojo\Api.class
+pojo\Mobile.class
+jsonFiles\PayLoad.class
+pojo\GetCourse.class
+Pages\LoginPage.class
+pojo\Location.class
+utilities\Utility.class

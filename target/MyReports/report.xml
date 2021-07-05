@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="6.1">
+<testcase classname="data table" name="data usuage" time="1.365">
+<system-out><![CDATA[Given background given......................................................passed
+When background When........................................................passed
+Given when in login page....................................................passed
+When data table to be read..................................................passed
+Then pass...................................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="data table" name="data usuage 2" time="0.007">
+<system-out><![CDATA[Given background given......................................................passed
+When background When........................................................passed
+Given when in login page....................................................passed
+When read "vijay1" and "pwd1"...............................................passed
+Then pass...................................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="data table" name="data usuage 3" time="0.008">
+<system-out><![CDATA[Given background given......................................................passed
+When background When........................................................passed
+Given when in login page....................................................passed
+When read "vijay2" and "pwd2"...............................................passed
+Then pass...................................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

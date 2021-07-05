@@ -1,0 +1,47 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "vijay3",
+    "phone_number": "8105025525",
+    "address": "mangalpet3",
+    "website": "setWebsite",
+    "language": "kannada3",
+    "location": {
+        "lat": 123.11,
+        "lng": 456.22
+    },
+    "types": [
+        "shoe park1",
+        "shoe park2"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Mon, 14 Jun 2021 07:11:57 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "57e8ad7ee83163216577efc1b1eccce1",
+    "scope": "APP",
+    "reference": "ec309a77f78181a06ee03f52d260854eec309a77f78181a06ee03f52d260854e",
+    "id": "ec309a77f78181a06ee03f52d260854e"
+}

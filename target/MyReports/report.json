@@ -1,0 +1,292 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "background given",
+            "match": {
+              "location": "stepDefinations.TestStepdef.background_given()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "background When",
+            "match": {
+              "location": "stepDefinations.TestStepdef.background_when()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-21T13:41:05.062Z",
+        "line": 8,
+        "name": "data usuage",
+        "description": "",
+        "id": "data-table;data-usuage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "when in login page",
+            "match": {
+              "location": "stepDefinations.TestStepdef.when_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "data table to be read",
+            "match": {
+              "location": "stepDefinations.TestStepdef.data_table_to_be_read(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user id",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "vijay1",
+                  "pwd1"
+                ]
+              },
+              {
+                "cells": [
+                  "vijay2",
+                  "pwd2"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "pass",
+            "match": {
+              "location": "stepDefinations.TestStepdef.pass()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "background given",
+            "match": {
+              "location": "stepDefinations.TestStepdef.background_given()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "background When",
+            "match": {
+              "location": "stepDefinations.TestStepdef.background_when()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-21T13:41:06.666Z",
+        "line": 23,
+        "name": "data usuage",
+        "description": "",
+        "id": "data-table;data-usuage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "when in login page",
+            "match": {
+              "location": "stepDefinations.TestStepdef.when_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "read \"vijay1\" and \"pwd1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vijay1\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"pwd1\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinations.TestStepdef.read_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "pass",
+            "match": {
+              "location": "stepDefinations.TestStepdef.pass()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "background given",
+            "match": {
+              "location": "stepDefinations.TestStepdef.background_given()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "background When",
+            "match": {
+              "location": "stepDefinations.TestStepdef.background_when()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-21T13:41:06.685Z",
+        "line": 24,
+        "name": "data usuage",
+        "description": "",
+        "id": "data-table;data-usuage;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "when in login page",
+            "match": {
+              "location": "stepDefinations.TestStepdef.when_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "read \"vijay2\" and \"pwd2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vijay2\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"pwd2\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinations.TestStepdef.read_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "pass",
+            "match": {
+              "location": "stepDefinations.TestStepdef.pass()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "data table",
+    "description": "",
+    "id": "data-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Test.feature",
+    "tags": []
+  }
+]
